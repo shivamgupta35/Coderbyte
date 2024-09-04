@@ -9,8 +9,13 @@ Input: ["(1,2)", "(3,2)", "(2,12)", "(5,2)"]
 Output: false
 
 
-#2)Front-end Challenge
+#2) Front-end Challenge
 We provided some simple JavaScript template code. Your goal is to modify the application so that you can properly toggle the button to switch between an ON state and an OFF state. When the button is on and it is clicked, it turns off and the text within it changes from ON to OFF and vice versa. Only replace the text within the DOM element, do not replace the entire DOM element. You are free to add classes and styles, but make sure you leave the element ID's as they are.
 
 
-#3)
+#3) Back-end Challenge
+In the PHP file, write a program to perform a GET request on the route https://coderbyte.com/api/challenges/json/age-counting which contains a data key and the value is a string which contains items in the format: key=STRING, age=INTEGER. Your goal is to count how many items exist that have an age equal to or greater than 50, and print this final value.
+Example Input
+{"data":"key=IAfpK, age=58, key=WNVdi, age=64, key=jp9zt, age=47"}
+Example Output
+2
